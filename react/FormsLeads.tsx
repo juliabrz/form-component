@@ -32,7 +32,7 @@ const FormsLeads: StorefrontFunctionComponent<FormsLeadsProps> = ({}) => {
 
   return (<Container>
     <div>
-      <h3>Para receber notificações sebre novos produtos</h3>
+      <h3>Para receber notificações sobre novos produtos</h3>
       <h2>Cadastre-se</h2>
       <br/>
         <Form>
