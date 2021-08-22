@@ -1,0 +1,5 @@
+{
+    "tableName": "formDesafioHC",
+    "partitionKeyName": "id",
+    "partitionKeyType": "S"
+}

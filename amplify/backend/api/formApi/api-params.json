@@ -1,0 +1,35 @@
+{
+  "paths": [
+    {
+      "name": "/contact",
+      "lambdaFunction": "formFunction",
+      "privacy": {
+        "open": true
+      },
+      "policyResourceName": "/contact"
+    }
+  ],
+  "resourceName": "formApi",
+  "apiName": "formApi",
+  "functionArns": [
+    {
+      "lambdaFunction": "formFunction"
+    }
+  ],
+  "privacy": {
+    "auth": 0,
+    "unauth": 0,
+    "authRoleName": "amplify-formcomponent-dev-10458-authRole",
+    "unAuthRoleName": "amplify-formcomponent-dev-10458-unauthRole"
+  },
+  "dependsOn": [
+    {
+      "category": "function",
+      "resourceName": "formFunction",
+      "attributes": [
+        "Name",
+        "Arn"
+      ]
+    }
+  ]
+}
