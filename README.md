@@ -10,7 +10,5 @@ Alterações foram feitas para adaptar ao VTEX IO.
 
 *Devido a erros no typscript foi necessário linkar por:*
 
-ˋˋˋ
-vtex link -u
-ˋˋˋ
+ˋvtex link -uˋ
 
