@@ -22,6 +22,7 @@ const FormsLeads: StorefrontFunctionComponent<FormsLeadsProps> = ({}) => {
     console.log(data);
     const apiData = await API.post('formApi', '/contact', data);
     console.log({ apiData });
+    alert('Cadastro realizado')
   }
   
   const formState = { name: '', email: '', phone: '' };
